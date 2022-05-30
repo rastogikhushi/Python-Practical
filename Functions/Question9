@@ -1,0 +1,7 @@
+# 9. To reverse string
+def reversestring(x):
+    s = x[ : :-1]
+    return s
+r = input("enter string")
+out = reversestring(r)
+print(out)
