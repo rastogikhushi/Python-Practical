@@ -1,0 +1,8 @@
+# 1.Function whether student is present or absent
+def Pa(rn,lst):
+    if rn in lst:
+        return rn
+rn = int(input("Enter roll number "))
+lst = range(1,61)
+out = Pa(rn,lst)
+print("present" if out else 'absent')
