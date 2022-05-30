@@ -1,0 +1,12 @@
+# TASK 5 
+import numpy as np 
+r,c = list(map(int, input().split()))
+ls = []
+for _ in range(r):
+    ele = list(map(int,input().split()))
+    ls.append(ele)
+arr = np.array(ls)
+out1 = arr.T
+out2 =  arr.ravel()
+print(out1)
+print(out2)
