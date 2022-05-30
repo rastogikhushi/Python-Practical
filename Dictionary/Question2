@@ -1,0 +1,6 @@
+#rename a dictionary key
+d = {0: 0, 1: 1, 2: 2, 3: 3}
+k_old = 0
+k_new = 4
+d[k_new] = d.pop(k_old)
+print(d)
