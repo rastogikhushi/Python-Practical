@@ -1,0 +1,4 @@
+with open('gla.txt') as f:
+    data=f.read().split()
+    print(len(data))
+    f.close()
