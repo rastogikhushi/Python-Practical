@@ -1,0 +1,4 @@
+#5.Usage of seed function
+import random
+random.seed(100)
+print(random.randint(1,60))
