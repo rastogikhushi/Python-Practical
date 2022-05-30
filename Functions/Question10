@@ -1,0 +1,13 @@
+# 10. To count upper and lower case letter in a string
+def letters(s):
+    upper=0
+    lower=0
+    for i in s:
+        if i.isupper():
+            upper=upper+1
+        elif i.islower():
+            lower=lower+1
+    return upper
+    return lower
+s1 = input("enter string")
+print(letters(s1))
