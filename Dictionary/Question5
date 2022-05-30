@@ -1,0 +1,8 @@
+#traverse through key:value pair of dictionary.
+myDictionary = {
+	"name": "Lini",
+	"year": 1989,
+	"expertise": "data analytics"}
+
+for key, value in myDictionary.items():
+	print(key, ': ', value)
