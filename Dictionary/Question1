@@ -1,0 +1,5 @@
+#sort a dictionary.
+original_dict = {'name': 'bob', 'age':'25', 'place': 'bangalore'}
+sorted_dict = {key : value for key, value in sorted(original_dict.items(),key = lambda item: item[1],reverse = True)}
+print(original_dict)
+print(sorted_dict)
