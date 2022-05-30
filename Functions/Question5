@@ -1,0 +1,11 @@
+# 5. Function Shutdown
+def shut_down(s):
+    if s == 'yes' or s== 'YES':
+        return 'shutting down'
+    elif s == 'no' or s=='NO':
+        return 'shutting down aborted'
+    else :
+        return 'sorry'
+x = input("ENTER ")
+out = shut_down(x)
+print(out)
