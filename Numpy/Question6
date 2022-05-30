@@ -1,0 +1,6 @@
+#Different mathematical functions on array
+import numpy as np
+a = eval(input())
+arr = np.array(a)
+arr = np.deg2rad(arr)
+print(np.tan(arr))
