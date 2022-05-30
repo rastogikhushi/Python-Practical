@@ -1,0 +1,14 @@
+# 7. Function for cube and more
+def cube(x):
+    y = x*x*x
+    return y
+
+def by_three(num):
+    if num%3==0:
+        a = cube(num)
+        return a
+    else:
+        return False
+r = int(input("number: "))
+s= by_three(r)
+print(s)
