@@ -1,0 +1,6 @@
+# TASK 2 creating 3*3 array
+import numpy as np
+x = eval(input("input enter list "))
+a = np.array(x)
+a.shape=3,3
+print(a)
