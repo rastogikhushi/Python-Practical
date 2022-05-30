@@ -1,0 +1,10 @@
+# 6.Function to return absolute value of integer or float input
+def distance_from_zero(x):
+    if type(x)== int or type(x) == float:
+        y = abs(x)
+    else :
+        return "nope"
+    return y
+s = eval(input("enter number "))
+out= distance_from_zero(s)
+print(out)
