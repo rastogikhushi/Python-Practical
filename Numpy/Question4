@@ -1,0 +1,15 @@
+# TASK 4 applying mathematical operations on arrays
+import numpy as np
+r,c = list(map(int, input().split()))
+a=list(map(int, input().split()))
+m1 = np.array(a).reshape(r,c)
+b = list(map(int,input().split()))
+m2 = np.array(b).reshape(r,c)
+o1 = np.add(m1,m2)
+o2 = np.subtract(m1,m2)
+o3 = np.multiply(m1,m2)
+o4 = np.floor_divide(m1,m2)
+o5 = np.mod(m1,m2)
+o6 = np.power(m1,m2)
+print(o3)
+print(o1,o2,o3,o4,o5,o6,sep='\n')
