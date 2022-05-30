@@ -1,0 +1,6 @@
+
+# TASK 3 creating identity mstrix
+import numpy as np
+r,c = map(int, input().split()) #for inputting number of elements
+arr = np.eye(r,c)
+print(arr) 
