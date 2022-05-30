@@ -1,0 +1,6 @@
+#1.Math radians and degrees
+>> import math
+>>> math.radians(30)
+0.5235987755982988
+>>> math.degrees(math.pi/6)
+29.999999999999996
