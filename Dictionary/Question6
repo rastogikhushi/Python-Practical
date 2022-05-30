@@ -1,0 +1,9 @@
+#get length of dictionary
+myDictionary = {
+	"name": "Lini",
+	"year": 1989,
+	"expertise": "data analytics"}
+
+length = len(myDictionary)
+
+print('Length of dictionary is:', length)
