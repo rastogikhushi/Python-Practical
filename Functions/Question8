@@ -1,0 +1,14 @@
+# 8.  WAP using functions to find all the Harshad number in a given sequence
+# a number whose sum of all the digits is the divisor of the number - Harshad number
+def harshadnumber(x):
+    for i in b:
+        sum=0
+        j=i
+        while(j>0):
+            y=j%10
+            sum = sum+y
+            j=j//10
+        if(i%sum==0):
+            print(f'{i} is a harshad number')
+b = eval(input("enter the number"))
+out = harshadnumber(b)
