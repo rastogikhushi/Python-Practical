@@ -1,0 +1,4 @@
+f=open('gla.txt','w')
+a=["hello everyone\n","I am learning\n Python\n"]
+f.writelines(a)
+f.close()
