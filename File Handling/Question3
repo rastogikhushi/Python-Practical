@@ -1,0 +1,10 @@
+with open('gla.txt') as f:
+    data=f.read().split()
+    max_lenth=max(data,key=len)
+    length=len(max_lenth)
+    for i in data:
+        if len(i)==length:
+            print(i)
+
+        
+    
