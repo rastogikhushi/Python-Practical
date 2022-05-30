@@ -1,0 +1,7 @@
+with open('gla.txt','r') as f :
+    a = input("word to be replaced")
+    b = input("new word")
+    data  = f.read()
+    data1 = data.replace(a,b)
+with open('gla.txt','w') as f:
+    f.write(data1)
