@@ -1,0 +1,4 @@
+#check if a key already exists in a dictionary
+d = {"key1": 10, "key2": 23}
+if "key1" in d:
+    print("has key1")
